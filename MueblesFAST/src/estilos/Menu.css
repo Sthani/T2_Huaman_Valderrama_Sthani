@@ -1,0 +1,38 @@
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Color de fondo del menú */
+    padding: 10px 20px; /* Espaciado interno */
+    color: white; /* Color del texto */
+  }
+  
+  .menu-logo {
+    flex: 1;
+  }
+  
+  .logo-image {
+    height: 40px; /* Ajusta el tamaño del logo */
+  }
+  
+  .menu-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-nav li {
+    margin: 0 15px; /* Espaciado entre los ítems del menú */
+  }
+  
+  .menu-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .menu-nav a:hover {
+    text-decoration: underline; /* Subrayar el texto al pasar el ratón */
+  }
